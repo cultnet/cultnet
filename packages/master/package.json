@@ -1,0 +1,24 @@
+{
+  "name": "@cultnet/master",
+  "version": "0.1.5",
+  "main": "dist/master.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cultnet/cultnet.git"
+  },
+  "scripts": {
+    "build": "lsc -o dist -c src/master",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@cultnet/slave": "^0.1.5",
+    "chokidar": "^3.3.1",
+    "death": "^1.1.0",
+    "prelude-ls": "^1.1.2",
+    "spawn-command": "^0.0.2-1",
+    "tree-kill": "^1.2.2"
+  },
+  "devDependencies": {
+    "livescript": "^1.6.0"
+  }
+}

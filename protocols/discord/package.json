@@ -1,0 +1,21 @@
+{
+  "name": "@cultnet/discord",
+  "version": "0.1.5",
+  "main": "dist/discord.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cultnet/cultnet.git"
+  },
+  "scripts": {
+    "build": "lsc -o dist -c src/discord",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@cultnet/bus": "^0.1.5",
+    "@cultnet/send-queue": "^0.1.5",
+    "discord.js": "^12.1.1"
+  },
+  "devDependencies": {
+    "livescript": "^1.6.0"
+  }
+}

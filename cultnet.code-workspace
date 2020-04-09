@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{ "path": "." },
+		{ "path": "../bots" }
+	],
+	"settings": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+		"files.exclude": {
+			"**/.git": true,
+      "**/node_modules": true
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@cultnet/send-queue",
+  "version": "0.1.5",
+  "main": "dist/sendQueue.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cultnet/cultnet.git"
+  },
+  "scripts": {
+    "build": "lsc -o dist -c src/sendQueue",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "livescript": "^1.6.0"
+  }
+}

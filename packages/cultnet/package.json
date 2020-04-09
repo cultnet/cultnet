@@ -1,0 +1,24 @@
+{
+  "name": "cultnet",
+  "version": "0.1.5",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cultnet/cultnet.git"
+  },
+  "scripts": {
+    "build": "lsc -o dist -c src/main.ls",
+    "clean": "rm -rf dist"
+  },
+  "bin": {
+    "cultnet": "./bin/cultnet"
+  },
+  "devDependencies": {
+    "livescript": "^1.6.0"
+  },
+  "dependencies": {
+    "@cultnet/master": "^0.1.5",
+    "glob": "^7.1.6",
+    "mkdirp": "^1.0.3",
+    "rimraf": "^3.0.2"
+  }
+}
