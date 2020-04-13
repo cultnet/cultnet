@@ -1,13 +1,17 @@
 {
   "name": "@cultnet/sample",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "license": "Apache-2.0",
-  "scripts": { "start": "cultnet" },
+  "scripts": {
+    "start": "cultnet"
+  },
   "dependencies": {
-    "@cultnet/bot": "^0.1.5",
-    "@cultnet/discord": "^0.1.5",
+    "@cultnet/bot": "^0.1.6",
+    "@cultnet/discord": "^0.1.6",
     "livescript": "^1.6.0"
   },
-  "cultnet": { "name": "sample" }
+  "cultnet": {
+    "name": "sample"
+  }
 }

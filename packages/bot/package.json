@@ -1,6 +1,6 @@
 {
   "name": "@cultnet/bot",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "Apache-2.0",
   "main": "dist/bot.js",
   "repository": {
@@ -12,7 +12,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@cultnet/bus": "^0.1.5",
+    "@cultnet/bus": "^0.1.6",
     "koa-compose": "^4.1.0"
   },
   "devDependencies": {

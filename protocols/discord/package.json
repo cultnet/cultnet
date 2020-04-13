@@ -1,6 +1,6 @@
 {
   "name": "@cultnet/discord",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "Apache-2.0",
   "main": "dist/discord.js",
   "repository": {
@@ -12,8 +12,8 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@cultnet/bus": "^0.1.5",
-    "@cultnet/send-queue": "^0.1.5",
+    "@cultnet/bus": "^0.1.6",
+    "@cultnet/send-queue": "^0.1.6",
     "discord.js": "^12.1.1"
   },
   "devDependencies": {

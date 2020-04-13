@@ -1,6 +1,6 @@
 {
   "name": "@cultnet/send-queue",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "Apache-2.0",
   "main": "dist/sendQueue.js",
   "repository": {
@@ -10,8 +10,6 @@
   "scripts": {
     "build": "lsc -o dist -c src/sendQueue",
     "clean": "rm -rf dist"
-  },
-  "dependencies": {
   },
   "devDependencies": {
     "livescript": "^1.6.0"

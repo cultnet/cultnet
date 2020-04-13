@@ -1,6 +1,6 @@
 {
   "name": "@cultnet/command",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "Apache-2.0",
   "main": "dist/command.js",
   "repository": {
