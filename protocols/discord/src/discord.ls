@@ -1,5 +1,5 @@
-{ SendQueue } = require (if process.env.CULTNET_LIVE is \true then \@cultnet/send-queue/src/sendQueue else \@cultnet/send-queue)
-{ Bus } = require (if process.env.CULTNET_LIVE is \true then \@cultnet/bus/src/bus else \@cultnet/bus)
+{ SendQueue } = require (if process.env.CULTNET_LSC is \true then \@cultnet/send-queue/src/sendQueue else \@cultnet/send-queue)
+{ Bus } = require (if process.env.CULTNET_LSC is \true then \@cultnet/bus/src/bus else \@cultnet/bus)
 { Client } = require \discord.js
 export Discord = { start }
 

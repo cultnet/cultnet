@@ -1,4 +1,4 @@
-{ Bus } = require (if process.env.CULTNET_LIVE is \true then \@cultnet/bus/src/bus else \@cultnet/bus)
+{ Bus } = require (if process.env.CULTNET_LSC is \true then \@cultnet/bus/src/bus else \@cultnet/bus)
 
 export Send = { message }
 

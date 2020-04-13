@@ -1,5 +1,5 @@
-{ MultiSend } = require (if process.env.CULTNET_LIVE is \true then \@cultnet/send-queue/src/sendQueue else \@cultnet/send-queue)
-{ Bus } = require (if process.env.CULTNET_LIVE is \true then \@cultnet/bus/src/bus else \@cultnet/bus)
+{ MultiSend } = require (if process.env.CULTNET_LSC is \true then \@cultnet/send-queue/src/sendQueue else \@cultnet/send-queue)
+{ Bus } = require (if process.env.CULTNET_LSC is \true then \@cultnet/bus/src/bus else \@cultnet/bus)
 { obj-to-pairs, each } = require \prelude-ls
 IC = require \irccloud
 
@@ -26,7 +26,7 @@ function start email, password, options
       conn = irc.connections[source.cid]
       if not conn then return # TODO oohohokk
       buffer = conn.buffers[source.bid]
-      text.split \\n |> each (line) -> send.push conn.name, -> irc.message conn, buffer.name, text
+      text.split \\n |> each (line) -> send.push conn.name, -> irc.message conn, buffer.name, line
 
   function relay event, props
     irc.on event, (buffer, sender, ...args) ->

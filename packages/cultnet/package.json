@@ -1,12 +1,13 @@
 {
   "name": "cultnet",
   "version": "0.1.5",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "http://github.com/cultnet/cultnet.git"
   },
   "scripts": {
-    "build": "lsc -o dist -c src/main.ls",
+    "build": "lsc -o dist -c src/cultnet.ls",
     "clean": "rm -rf dist"
   },
   "bin": {
@@ -17,8 +18,6 @@
   },
   "dependencies": {
     "@cultnet/master": "^0.1.5",
-    "glob": "^7.1.6",
-    "mkdirp": "^1.0.3",
-    "rimraf": "^3.0.2"
+    "optionator": "^0.9.1"
   }
 }

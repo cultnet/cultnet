@@ -17,3 +17,8 @@ function prefix p
     event.text = event.text.substring p.length
     event.prefix = p
     next!
+
+function not-mine p
+  (event, next) ->>
+    if event.is-mine then return
+    next!

@@ -1,6 +1,7 @@
 {
   "name": "@cultnet/discord",
   "version": "0.1.5",
+  "license": "Apache-2.0",
   "main": "dist/discord.js",
   "repository": {
     "type": "git",

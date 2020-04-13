@@ -140,7 +140,6 @@ module.exports = function(script, scriptArgs, nodeArgs, opts) {
         const within = restart > stamp - RESTART_PERIOD;
         return within ? sum + 1 : sum;
       }, 0);
-      console.log(restartLog);
       if (restartsWithinPeriod >= RESTART_LIMIT) {
         console.log("maximum restarts exceeded");
         restartLog.splice(0);

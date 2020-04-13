@@ -1,21 +1,18 @@
 {
-  "name": "@cultnet/irccloud",
+  "name": "@cultnet/format",
   "version": "0.1.5",
   "license": "Apache-2.0",
-  "main": "dist/ircCloud.js",
+  "main": "dist/format.js",
   "repository": {
     "type": "git",
     "url": "http://github.com/cultnet/cultnet.git"
   },
   "scripts": {
-    "build": "lsc -o dist -c src/ircCloud",
+    "build": "lsc -o dist -c src/format",
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@cultnet/bus": "^0.1.5",
-    "@cultnet/send-queue": "^0.1.5",
-    "irccloud": "^1.2.0",
-    "prelude-ls": "^1.1.2"
+    "irc-colors": "^1.5.0"
   },
   "devDependencies": {
     "livescript": "^1.6.0"

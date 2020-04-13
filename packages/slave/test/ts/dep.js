@@ -1,3 +1,5 @@
-export const fn = () => {
-  console.error('this is function from WRONG dep.js module')
-}
+"use strict";
+exports.__esModule = true;
+exports.fn = function (x) {
+    console.log('function from dep module here');
+};

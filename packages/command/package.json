@@ -1,21 +1,19 @@
 {
-  "name": "@cultnet/irccloud",
+  "name": "@cultnet/command",
   "version": "0.1.5",
   "license": "Apache-2.0",
-  "main": "dist/ircCloud.js",
+  "main": "dist/command.js",
   "repository": {
     "type": "git",
     "url": "http://github.com/cultnet/cultnet.git"
   },
   "scripts": {
-    "build": "lsc -o dist -c src/ircCloud",
+    "build": "lsc -o dist -c src/command",
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@cultnet/bus": "^0.1.5",
-    "@cultnet/send-queue": "^0.1.5",
-    "irccloud": "^1.2.0",
-    "prelude-ls": "^1.1.2"
+    "escape-string-regexp": "^3.0.0",
+    "optionator": "^0.9.1"
   },
   "devDependencies": {
     "livescript": "^1.6.0"

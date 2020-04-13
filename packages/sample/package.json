@@ -1,19 +1,21 @@
 {
-  "name": "@cultnet/send-queue",
+  "name": "@cultnet/sample",
   "version": "0.1.5",
+  "private": true,
   "license": "Apache-2.0",
-  "main": "dist/sendQueue.js",
   "repository": {
     "type": "git",
     "url": "http://github.com/cultnet/cultnet.git"
   },
   "scripts": {
-    "build": "lsc -o dist -c src/sendQueue",
-    "clean": "rm -rf dist"
+    "start": "cultnet"
   },
   "dependencies": {
-  },
-  "devDependencies": {
+    "@cultnet/bot": "^0.1.5",
+    "@cultnet/discord": "^0.1.5",
     "livescript": "^1.6.0"
+  },
+  "cultnet": {
+    "name": "sample"
   }
 }

@@ -1,12 +1,10 @@
 #!/bin/bash
-export CULTNET_BIN=$(dirname $(readlink -f $BASH_SOURCE))
-export CULTNET_MAIN=$(readlink -f $CULTNET_BIN/..)
+CULTNET_BIN=$(dirname $(readlink -f $BASH_SOURCE))
+CULTNET_MAIN=$(readlink -f $CULTNET_BIN/..)
 
-case $CULTNET_LIVE in
-  true)
-    $CULTNET_MAIN/node_modules/.bin/lsc $CULTNET_MAIN/src/main "$@"
-  ;;
-  *)
-    node $CULTNET_MAIN/dist/main "$@"
-  ;;
-esac
+if [[ "$*" == *--lsc* ]]
+then
+    $CULTNET_MAIN/node_modules/.bin/lsc $CULTNET_MAIN/src/cultnet "$@"
+else
+    node $CULTNET_MAIN/dist/cultnet "$@"
+fi

@@ -2,11 +2,6 @@
 
 > Start a cult!
 
-```sh
-npm install -g cultnet
-cultnet
-```
-
 ## core
 
 - [x] master
@@ -14,6 +9,10 @@ cultnet
 - [x] bus
 - [x] send-queue
 - [x] bot
+- [x] new cli, config json
+- [x] command
+- [x] format
+- [ ] redis endpoint config
 - [ ] generator
 
 ## protocols
@@ -37,15 +36,12 @@ cultnet
 
 ## triggers
 
-- [ ] youtube
 - [ ] weather
+- [ ] youtube
 - [ ] vimeo, liveleak, etc
 - [ ] spotify, bandcamp, etc
 
 ## drivers
 
 - [ ] cultnet-dotnet
-- [ ] cultnet-python
-- [ ] cultnet-ruby
-- [ ] cultnet-kotlin
-
+- anything with a smart source watcher
