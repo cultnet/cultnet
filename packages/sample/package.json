@@ -3,19 +3,11 @@
   "version": "0.1.5",
   "private": true,
   "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/cultnet/cultnet.git"
-  },
-  "scripts": {
-    "start": "cultnet"
-  },
+  "scripts": { "start": "cultnet" },
   "dependencies": {
     "@cultnet/bot": "^0.1.5",
     "@cultnet/discord": "^0.1.5",
     "livescript": "^1.6.0"
   },
-  "cultnet": {
-    "name": "sample"
-  }
+  "cultnet": { "name": "sample" }
 }
