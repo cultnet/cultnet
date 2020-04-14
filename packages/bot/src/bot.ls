@@ -1,8 +1,14 @@
+koa-compose = require \koa-compose
+
 { On } = require "./on"
 { Send } = require "./send"
 { Reply } = require "./reply"
 
-export { On, Send, Reply, regex, prefix }
+Event = { compose, regex, prefix, not-mine, extend }
+
+export { On, Send, Reply, Event }
+
+function compose ...wares then koa-compose wares
 
 function regex re
   (event, next) ->>
@@ -21,4 +27,9 @@ function prefix p
 function not-mine p
   (event, next) ->>
     if event.is-mine then return
+    next!
+
+function extend create-props
+  (event, next) ->>
+    Object.assign event, create-props event
     next!

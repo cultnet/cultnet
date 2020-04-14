@@ -2,6 +2,7 @@
   "name": "cultnet",
   "version": "0.1.6",
   "license": "Apache-2.0",
+  "description": "start a cult!",
   "repository": {
     "type": "git",
     "url": "http://github.com/cultnet/cultnet.git"
@@ -19,5 +20,6 @@
   "dependencies": {
     "@cultnet/master": "^0.1.6",
     "optionator": "^0.9.1"
-  }
+  },
+  "gitHead": "1321183af1d07b4896a1265659bede44d17e1332"
 }

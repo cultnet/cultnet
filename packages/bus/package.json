@@ -2,6 +2,7 @@
   "name": "@cultnet/bus",
   "version": "0.1.6",
   "main": "dist/index.js",
+  "description": "cultnet message/service bus client",
   "repository": {
     "type": "git",
     "url": "http://github.com/cultnet/cultnet.git"
@@ -16,5 +17,6 @@
   },
   "devDependencies": {
     "livescript": "^1.6.0"
-  }
+  },
+  "gitHead": "1321183af1d07b4896a1265659bede44d17e1332"
 }

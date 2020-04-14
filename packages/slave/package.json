@@ -1,7 +1,7 @@
 {
   "name": "@cultnet/slave",
   "version": "0.1.6",
-  "description": "Compiles your TS app and restarts when files are modified.",
+  "description": "monitors cultnet slaves (modified ts-node-dev)",
   "keywords": [
     "restart",
     "reload",
@@ -67,5 +67,6 @@
     "touch": "^1.0.0",
     "tsconfig-paths": "^3.3.1",
     "typescript": "^2.3.4"
-  }
+  },
+  "gitHead": "1321183af1d07b4896a1265659bede44d17e1332"
 }

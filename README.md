@@ -2,46 +2,60 @@
 
 > Start a cult!
 
-## core
+## packages
 
 - [x] master
 - [x] slave
 - [x] bus
 - [x] send-queue
 - [x] bot
-- [x] new cli, config json
+- [x] cultnet
 - [x] command
 - [x] format
-- [ ] redis endpoint config
+- [ ] request
+- [ ] html
 - [ ] generator
 
 ## protocols
 
 - [x] irccloud
 - [x] discord
+- [ ] slack
 - [ ] telegram
 - [ ] irc
-- [ ] minecraft
-- [ ] slack
+
+## protocols (later)
+
 - [ ] teams
-- [ ] facebook
-- [ ] twitter
-- [ ] signal
 - [ ] gitter
+- [ ] signal
+- [ ] messenger
+- [ ] twitter
+- [ ] minecraft
 
 ## services
 
-- [ ] bridge
-- [ ] logger
+- [ ] db
+- [ ] cache
 
 ## triggers
 
-- [ ] weather
+- [x] weather
+- [ ] bridge
+- [ ] logger
 - [ ] youtube
+- [ ] fart, quran, kanye, a0l, troll
+- [ ] halfcock, monoquome
 - [ ] vimeo, liveleak, etc
 - [ ] spotify, bandcamp, etc
+- [ ] twitter, etc.
 
-## drivers
+## todo
 
-- [ ] cultnet-dotnet
-- anything with a smart source watcher
+- [ ] redis endpoint config
+- [ ] more chat events
+
+## maybe
+
+- [ ] cultnet-fsharp
+- [ ] slave dependencies

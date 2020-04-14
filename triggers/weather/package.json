@@ -1,22 +1,23 @@
 {
-  "name": "@cultnet/format",
+  "name": "@cultnet/weather",
   "version": "0.1.6",
   "license": "Apache-2.0",
-  "description": "chat text formatting & conversion",
-  "main": "dist/format.js",
+  "description": "cultnet weather trigger",
+  "main": "dist/weather.js",
   "repository": {
     "type": "git",
     "url": "http://github.com/cultnet/cultnet.git"
   },
   "scripts": {
-    "build": "lsc -o dist -c src/format",
+    "build": "lsc -o dist -c src/weather",
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "irc-colors": "^1.5.0"
+    "@cultnet/bot": "^0.1.6",
+    "@cultnet/format": "^0.1.6",
+    "weather-js": "^2.0.0"
   },
   "devDependencies": {
     "livescript": "^1.6.0"
-  },
-  "gitHead": "1321183af1d07b4896a1265659bede44d17e1332"
+  }
 }

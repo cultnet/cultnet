@@ -2,6 +2,7 @@
   "name": "@cultnet/irccloud",
   "version": "0.1.6",
   "license": "Apache-2.0",
+  "description": "cultnet irccloud adapter",
   "main": "dist/ircCloud.js",
   "repository": {
     "type": "git",
@@ -19,5 +20,6 @@
   },
   "devDependencies": {
     "livescript": "^1.6.0"
-  }
+  },
+  "gitHead": "1321183af1d07b4896a1265659bede44d17e1332"
 }
